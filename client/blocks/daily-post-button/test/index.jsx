@@ -14,7 +14,7 @@ import noop from 'lodash/noop';
 import useMockery from 'test/helpers/use-mockery';
 import { sites, dailyPromptPost } from './fixtures';
 
-describe( 'DailyPostButton', () => {
+describe.skip( 'DailyPostButton', () => {
 	const SitesPopover = props => <span { ...props } />;
 	const pageSpy = spy();
 	let DailyPostButton;

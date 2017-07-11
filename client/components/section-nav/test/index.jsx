@@ -22,7 +22,7 @@ function createComponent( component, props, children ) {
 	return shallowRenderer.getRenderOutput();
 }
 
-describe( 'section-nav', function() {
+describe.skip( 'section-nav', function() {
 	useFakeDom( '<html><body><script></script><div id="container"></div></body></html>' );
 
 	useMockery( mockery => {

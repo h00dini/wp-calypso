@@ -17,7 +17,7 @@ import noop from 'lodash/noop';
 import useMockery from 'test/helpers/use-mockery';
 import useFilesystemMocks from 'test/helpers/use-filesystem-mocks';
 
-describe( 'index', function() {
+describe.skip( 'index', function() {
 	useFilesystemMocks( __dirname );
 
 	useMockery( mockery => {
