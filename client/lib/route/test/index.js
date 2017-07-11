@@ -1,17 +1,14 @@
 /**
+ * @jest-environment jsdom
+ */
+
+/**
  * External dependencies
  */
 import { expect } from 'chai';
 
-/**
- * Internal dependencies
- */
-import useFakeDom from 'test/helpers/use-fake-dom';
-
 describe( 'route', function() {
 	let route;
-
-	useFakeDom();
 
 	before( function() {
 		route = require( '../' );

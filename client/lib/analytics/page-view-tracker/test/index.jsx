@@ -1,9 +1,12 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import React from 'react';
 import { expect } from 'chai';
 import { mount } from 'enzyme';
 import { spy } from 'sinon';
 
-import useFakeDom from 'test/helpers/use-fake-dom';
 import { useFakeTimers } from 'test/helpers/use-sinon';
 
 import { PageViewTracker } from '../';
@@ -11,7 +14,6 @@ import { PageViewTracker } from '../';
 describe( 'PageViewTracker', () => {
 	let clock;
 
-	useFakeDom();
 	useFakeTimers( fakeClock => {
 		clock = fakeClock
 	} );

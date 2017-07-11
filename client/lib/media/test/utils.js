@@ -1,9 +1,12 @@
 /**
+ * @jest-environment jsdom
+ */
+
+/**
  * External dependencies
  */
 import { expect } from 'chai';
 import { map } from 'lodash';
-import useFakeDom from 'test/helpers/use-fake-dom';
 import mockery from 'mockery';
 
 /**
@@ -49,7 +52,6 @@ const EXPECTED_FILE_OBJECT = {
 describe( 'MediaUtils', function() {
 	let MediaUtils;
 
-	useFakeDom();
 	useMockery();
 
 	before( () => {

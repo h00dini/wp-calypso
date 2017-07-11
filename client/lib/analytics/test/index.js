@@ -1,8 +1,11 @@
+/**
+ * @jest-environment jsdom
+ */
+
 const expect = require( 'chai' ).expect,
 	url = require( 'url' );
 
-const useFakeDom = require( 'test/helpers/use-fake-dom' ),
-	useFilesystemMocks = require( 'test/helpers/use-filesystem-mocks' );
+const useFilesystemMocks = require( 'test/helpers/use-filesystem-mocks' );
 
 function logImageLoads() {
 	var imagesLoaded = [],
@@ -35,7 +38,6 @@ function logImageLoads() {
 }
 
 describe( 'Analytics', function() {
-	useFakeDom();
 	useFilesystemMocks( __dirname );
 	const imagesLoaded = logImageLoads();
 

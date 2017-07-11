@@ -1,4 +1,8 @@
 /**
+ * @jest-environment jsdom
+ */
+
+/**
  * External dependencies
  */
 import sinon from 'sinon';
@@ -12,13 +16,11 @@ import defer from 'lodash/defer';
 /**
  * Internal dependencies
  */
-import useFakeDom from 'test/helpers/use-fake-dom';
 import useMockery from 'test/helpers/use-mockery' ;
 
 describe( 'progress-store', function() {
 	let SignupProgressStore, SignupActions, Dispatcher;
 
-	useFakeDom();
 	require( 'test/helpers/use-filesystem-mocks' )( __dirname );
 
 	before( () => {
