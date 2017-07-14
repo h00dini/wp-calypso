@@ -1,11 +1,19 @@
 /**
  * @jest-environment jsdom
  */
+jest.mock( 'config', () => require( './config' ) );
+jest.mock( 'lib/analytics/ad-tracking', () => ( {
+	retarget: () => {}
+} ) );
+jest.mock( 'lib/load-script', () => require( './lib/load-script' ) );
 
 const expect = require( 'chai' ).expect,
 	url = require( 'url' );
 
-const useFilesystemMocks = require( 'test/helpers/use-filesystem-mocks' );
+/**
+ * Internal dependencies
+ */
+import analytics from '../';
 
 function logImageLoads() {
 	var imagesLoaded = [],
@@ -38,14 +46,7 @@ function logImageLoads() {
 }
 
 describe( 'Analytics', function() {
-	useFilesystemMocks( __dirname );
 	const imagesLoaded = logImageLoads();
-
-	// can't require this until the fake DOM is present
-	let analytics;
-	before( () => {
-		analytics = require( '../' );
-	} );
 
 	beforeEach( function() {
 		// this seems really weird. but we need to keep the same array reference, but trim the array

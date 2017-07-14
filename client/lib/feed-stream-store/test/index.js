@@ -1,3 +1,11 @@
+jest.mock( 'lib/analytics', () => ( {} ) );
+jest.mock( 'lib/data-poller', () => require( './lib/data-poller' ) );
+jest.mock( 'lib/post-normalizer', () => require( './lib/post-normalizer' ) );
+jest.mock( 'lib/wp', () => require( './lib/wp' ) );
+jest.mock( 'reader/stats', () => ( {
+	recordTrack: require( 'sinon' ).spy()
+} ) );
+
 /**
  * External Dependencies
  */
@@ -8,23 +16,10 @@ import set from 'lodash/set';
 /**
  * Internal Dependencies
  */
-import useFilesystemMocks from 'test/helpers/use-filesystem-mocks';
-import useMockery from 'test/helpers/use-mockery';
-
-let PostListStore, FeedPostStore;
+import FeedPostStore from 'lib/feed-post-store';
+import PostListStore from '../feed-stream';
 
 describe( 'FeedPostList', function() {
-	useFilesystemMocks( __dirname );
-
-	useMockery( mockery => {
-		mockery.registerMock( 'reader/stats', { recordTrack: sinon.spy() } );
-	} );
-
-	before( function() {
-		PostListStore = require( '../feed-stream' );
-		FeedPostStore = require( 'lib/feed-post-store' );
-	} );
-
 	it( 'should require an id, a fetcher, a keyMaker', function() {
 		expect( function() {
 			return new PostListStore();
