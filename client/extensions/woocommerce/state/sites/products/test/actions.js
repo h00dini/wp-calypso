@@ -9,7 +9,6 @@ import { spy } from 'sinon';
  */
 import { fetchProducts, fetchProductSearchResults, clearProductSearch, deleteProduct } from '../actions';
 import useNock from 'test/helpers/use-nock';
-import { useSandbox } from 'test/helpers/use-sinon';
 import {
 	WOOCOMMERCE_ERROR_SET,
 	WOOCOMMERCE_PRODUCT_DELETE,
@@ -29,7 +28,6 @@ describe( 'actions', () => {
 	describe( '#fetchProducts()', () => {
 		const siteId = '123';
 
-		useSandbox();
 		useNock( ( nock ) => {
 			nock( 'https://public-api.wordpress.com:443' )
 				.persist()
@@ -114,7 +112,6 @@ describe( 'actions', () => {
 	describe( '#fetchProductSearchResults()', () => {
 		const siteId = '123';
 
-		useSandbox();
 		useNock( ( nock ) => {
 			nock( 'https://public-api.wordpress.com:443' )
 				.persist()
@@ -260,7 +257,6 @@ describe( 'actions', () => {
 	describe( '#deleteProduct()', () => {
 		const siteId = '123';
 
-		useSandbox();
 		useNock( ( nock ) => {
 			nock( 'https://public-api.wordpress.com:443' )
 				.persist()
