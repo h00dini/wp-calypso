@@ -1,9 +1,10 @@
+jest.mock( 'state/sites/plans/selectors', () => ( { getCurrentPlan: require( 'sinon' ).stub() } ) );
+
 /**
  * External dependencies
  */
 import deepFreeze from 'deep-freeze';
 import { expect } from 'chai';
-import { stub } from 'sinon';
 
 /**
  * Internal dependencies
@@ -12,21 +13,11 @@ import {
 	PLAN_BUSINESS,
 	PLAN_FREE
 } from 'lib/plans/constants';
-import useMockery from 'test/helpers/use-mockery';
+import { getCurrentPlan } from 'state/sites/plans/selectors';
+import isSiteOnPaidPlan from '../is-site-on-paid-plan';
 
-describe.skip( 'isSiteOnPaidPlan', () => {
+describe( 'isSiteOnPaidPlan', () => {
 	const state = deepFreeze( {} );
-	let getCurrentPlan;
-	let isSiteOnPaidPlan;
-
-	useMockery( mockery => {
-		getCurrentPlan = stub();
-		mockery.registerMock( 'state/sites/plans/selectors', { getCurrentPlan } );
-	} );
-
-	before( () => {
-		isSiteOnPaidPlan = require( '../is-site-on-paid-plan' );
-	} );
 
 	it( 'should return false when plan is not known', () => {
 		getCurrentPlan.returns( null );
