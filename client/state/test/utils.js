@@ -1,20 +1,29 @@
+jest.mock( 'lib/warn', () => () => {} );
+
 /**
  * External dependencies
  */
 import deepFreeze from 'deep-freeze';
 import { expect } from 'chai';
-import noop from 'lodash/noop';
 import { stub, spy } from 'sinon';
 
 /**
  * Internal dependencies
  */
 import {
+	createReducer,
+	extendAction,
+	keyedReducer,
+	withSchemaValidation,
+	combineReducers,
+	isValidStateWithSchema,
+	withoutPersistence,
+} from 'state/utils';
+import {
 	DESERIALIZE,
 	SERIALIZE,
 } from 'state/action-types';
 import { testSchema } from './mocks/schema';
-import useMockery from 'test/helpers/use-mockery';
 
 describe( 'utils', () => {
 	const currentState = deepFreeze( {
@@ -22,28 +31,7 @@ describe( 'utils', () => {
 		} ),
 		actionSerialize = { type: SERIALIZE },
 		actionDeserialize = { type: DESERIALIZE };
-	let createReducer;
-	let extendAction;
-	let keyedReducer;
 	let reducer;
-	let withSchemaValidation;
-	let combineReducers;
-	let isValidStateWithSchema;
-	let withoutPersistence;
-
-	useMockery( ( mockery ) => {
-		mockery.registerMock( 'lib/warn', noop );
-
-		( {
-			createReducer,
-			extendAction,
-			keyedReducer,
-			withSchemaValidation,
-			combineReducers,
-			isValidStateWithSchema,
-			withoutPersistence,
-		} = require( 'state/utils' ) );
-	} );
 
 	describe( 'extendAction()', () => {
 		it( 'should return an updated action object, merging data', () => {

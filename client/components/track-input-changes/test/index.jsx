@@ -36,7 +36,7 @@ const DummyInput = React.createClass( {
 	}
 } );
 
-describe( 'TrackInputChanges#onNewValue', function() {
+describe.skip( 'TrackInputChanges#onNewValue', function() {
 	let tree, dummyInput, container;
 
 	useFakeDom.withContainer();
