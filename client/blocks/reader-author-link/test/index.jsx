@@ -1,30 +1,23 @@
+jest.mock( 'reader/stats', () => ( {
+	recordAction: () => {},
+	recordGaEvent: () => {},
+	recordTrackForPost: () => {},
+} ) );
+
 /**
  * External dependencies
  */
 import React from 'react';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
-import { noop } from 'lodash';
 
 /**
  * Internal dependencies
  */
-import useMockery from 'test/helpers/use-mockery';
+import ReaderAuthorLink from '../index';
 
-describe.skip( 'ReaderAuthorLink', () => {
-	let ReaderAuthorLink, author;
-
-	useMockery( mockery => {
-		mockery.registerMock( 'reader/stats', {
-			recordAction: noop,
-			recordGaEvent: noop,
-			recordTrackForPost: noop,
-		} );
-	} );
-
-	before( () => {
-		ReaderAuthorLink = require( '../index' );
-	} );
+describe( 'ReaderAuthorLink', () => {
+	let author;
 
 	beforeEach( () => {
 		author = { URL: 'http://wpcalypso.wordpress.com', name: 'Barnaby Blogwit' };
