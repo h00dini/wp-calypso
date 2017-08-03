@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import analytics from 'lib/analytics';
 import {
 	getCurrentUserId,

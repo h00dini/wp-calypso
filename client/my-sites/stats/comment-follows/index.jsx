@@ -12,7 +12,7 @@ import { flowRight } from 'lodash';
  */
 import Followers from '../stats-comment-followers-page';
 import HeaderCake from 'components/header-cake';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import StatsFirstView from '../stats-first-view';
 import { getSelectedSiteId } from 'state/ui/selectors';
 import { getSiteSlug } from 'state/sites/selectors';

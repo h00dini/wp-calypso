@@ -12,7 +12,7 @@ import { localize } from 'i18n-calypso';
 import SectionNav from 'components/section-nav';
 import NavTabs from 'components/section-nav/tabs';
 import NavItem from 'components/section-nav/item';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 import AdsEarnings from 'my-sites/ads/form-earnings';
 import AdsSettings from 'my-sites/ads/form-settings';

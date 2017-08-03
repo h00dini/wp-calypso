@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Header from 'my-sites/domains/domain-management/components/header';
 import AddEmailAddressesCard from './add-email-addresses-card';
 import paths from 'my-sites/domains/paths';

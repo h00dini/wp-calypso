@@ -11,7 +11,7 @@ import Gridicon from 'gridicons';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Button from '@automattic/simple-components/button';
 import ThemesSelection from './themes-selection';
 import SubMasterbarNav from 'components/sub-masterbar-nav';

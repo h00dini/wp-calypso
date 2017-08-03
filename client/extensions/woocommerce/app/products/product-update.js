@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import accept from 'lib/accept';
 import { ProtectFormGuard } from 'lib/protect-form';
 import SidebarNavigation from 'my-sites/sidebar-navigation';

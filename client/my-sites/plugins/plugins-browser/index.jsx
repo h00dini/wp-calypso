@@ -13,7 +13,7 @@ import DocumentHead from 'components/data/document-head';
 import Search from 'components/search';
 import SearchCard from 'components/search-card';
 import SectionNav from 'components/section-nav';
-import MainComponent from 'components/main';
+import MainComponent from '@automattic/simple-components/main';
 import NavTabs from 'components/section-nav/tabs';
 import NavItem from 'components/section-nav/item';
 import NoResults from 'my-sites/no-results';

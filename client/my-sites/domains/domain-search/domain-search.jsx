@@ -15,7 +15,7 @@ import { DOMAINS_WITH_PLANS_ONLY } from 'state/current-user/constants';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 import RegisterDomainStep from 'components/domains/register-domain-step';
 import UpgradesNavigation from 'my-sites/domains/navigation';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import upgradesActions from 'lib/upgrades/actions';
 import cartItems from 'lib/cart-values/cart-items';
 import { currentUserHasFlag } from 'state/current-user/selectors';

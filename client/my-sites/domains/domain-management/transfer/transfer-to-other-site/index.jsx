@@ -19,7 +19,7 @@ import { getCurrentUser, currentUserHasFlag } from 'state/current-user/selectors
 import { DOMAINS_WITH_PLANS_ONLY } from 'state/current-user/constants';
 import { getSites } from 'state/selectors';
 import Header from 'my-sites/domains/domain-management/components/header';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import paths from 'my-sites/domains/paths';
 import { getSelectedDomain } from 'lib/domains';
 import NonOwnerCard from 'my-sites/domains/domain-management/components/domain/non-owner-card';

@@ -11,7 +11,7 @@ import { localize } from 'i18n-calypso';
 import ContactsPrivacyCard from './card';
 import DomainMainPlaceholder from 'my-sites/domains/domain-management/components/domain/main-placeholder';
 import Header from 'my-sites/domains/domain-management/components/header';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import VerticalNav from 'components/vertical-nav';
 import VerticalNavItem from 'components/vertical-nav/item';
 import paths from 'my-sites/domains/paths';

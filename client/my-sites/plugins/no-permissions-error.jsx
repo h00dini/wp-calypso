@@ -9,7 +9,7 @@ import React, { PropTypes } from 'react';
  */
 import DocumentHead from 'components/data/document-head';
 import EmptyContent from 'components/empty-content';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import { preventWidows } from 'lib/formatting';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 

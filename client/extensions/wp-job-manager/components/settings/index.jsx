@@ -10,7 +10,7 @@ import { flowRight } from 'lodash';
  * Internal dependencies
  */
 import DocumentHead from 'components/data/document-head';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Navigation from '../navigation';
 import QuerySettings from '../data/query-settings';
 import { saveSettings } from '../../state/settings/actions';

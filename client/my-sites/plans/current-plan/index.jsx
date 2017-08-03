@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal Dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import {
 	getCurrentPlan,
 	isCurrentPlanExpiring,

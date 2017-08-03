@@ -32,7 +32,7 @@ import {
 } from 'woocommerce/state/sites/settings/tax/actions';
 import { getLink } from 'woocommerce/lib/nav-utils';
 import { getSelectedSiteWithFallback } from 'woocommerce/state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import TaxSettingsSaveButton from './save-button';
 import SettingsNavigation from '../navigation';
 import { successNotice, errorNotice } from 'state/notices/actions';

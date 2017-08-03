@@ -9,7 +9,7 @@ import { flowRight, partialRight, pick } from 'lodash';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import DocumentHead from 'components/data/document-head';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 import SiteSettingsNavigation from 'my-sites/site-settings/navigation';

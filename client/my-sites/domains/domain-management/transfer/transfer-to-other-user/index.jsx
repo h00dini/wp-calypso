@@ -13,7 +13,7 @@ import { localize } from 'i18n-calypso';
 import Card from 'components/card';
 import { getCurrentUser } from 'state/current-user/selectors';
 import Header from 'my-sites/domains/domain-management/components/header';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import paths from 'my-sites/domains/paths';
 import FormSelect from 'components/forms/form-select';
 import FormButton from 'components/forms/form-button';

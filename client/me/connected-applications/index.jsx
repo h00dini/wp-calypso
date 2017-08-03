@@ -17,7 +17,7 @@ var ConnectedAppItem = require( 'me/connected-application-item' ),
 	twoStepAuthorization = require( 'lib/two-step-authorization' ),
 	notices = require( 'notices' ),
 	SecuritySectionNav = require( 'me/security-section-nav' ),
-	Main = require( 'components/main' ),
+	Main = require( '@automattic/simple-components/main' ),
 	successNotice = require( 'state/notices/actions' ).successNotice;
 
 const ConnectedApplications = React.createClass( {

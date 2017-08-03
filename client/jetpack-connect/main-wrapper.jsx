@@ -7,7 +7,7 @@ import classNames from 'classnames';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 
 const JetpackConnectMainWrapper = ( { isWide, className, children } ) => {
 	const wrapperClassName = classNames( 'jetpack-connect__main', {

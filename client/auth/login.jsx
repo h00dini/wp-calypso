@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import config from 'config';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import FormTextInput from 'components/forms/form-text-input';
 import FormPasswordInput from 'components/forms/form-password-input';
 import FormFieldset from 'components/forms/form-fieldset';

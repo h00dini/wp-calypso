@@ -58,7 +58,7 @@ import {
 	isTheme,
 } from 'lib/products-values';
 import { isRequestingSites } from 'state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import PlanIcon from 'components/plans/plan-icon';
 import PlanPrice from 'my-sites/plan-price';
 import ProductLink from 'me/purchases/product-link';

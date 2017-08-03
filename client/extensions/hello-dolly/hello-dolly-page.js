@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 /**
  * Internal Dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import SectionHeader from 'components/section-header';

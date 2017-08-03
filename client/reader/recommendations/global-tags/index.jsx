@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Navigation from 'reader/recommendations/navigation';
 
 class RecommendedTags extends React.Component {

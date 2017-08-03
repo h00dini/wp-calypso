@@ -8,7 +8,7 @@ import PureRenderMixin from 'react-pure-render/mixin';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 
 export default React.createClass( {
 	displayName: 'Typography',

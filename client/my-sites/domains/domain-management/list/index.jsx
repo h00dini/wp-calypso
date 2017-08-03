@@ -17,7 +17,7 @@ import DomainWarnings from 'my-sites/domains/components/domain-warnings';
 import DomainOnly from './domain-only';
 import ListItem from './item';
 import ListItemPlaceholder from './item-placeholder';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import paths from 'my-sites/domains/paths';
 import SectionHeader from 'components/section-header';
 import Button from '@automattic/simple-components/button';

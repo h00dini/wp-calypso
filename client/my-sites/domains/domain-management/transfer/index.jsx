@@ -12,7 +12,7 @@ import { getSelectedSiteId } from 'state/ui/selectors';
 import Header from 'my-sites/domains/domain-management/components/header';
 import { isDomainOnlySite, isSiteAutomatedTransfer } from 'state/selectors';
 import { localize } from 'i18n-calypso';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import paths from 'my-sites/domains/paths';
 import VerticalNav from 'components/vertical-nav';
 import VerticalNavItem from 'components/vertical-nav/item';

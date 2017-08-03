@@ -11,7 +11,7 @@ import page from 'page';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import { ProtectFormGuard } from 'lib/protect-form';
 import { getSelectedSiteWithFallback } from 'woocommerce/state/sites/selectors';
 import { successNotice, errorNotice } from 'state/notices/actions';

@@ -10,7 +10,7 @@ import page from 'page';
  * Internal dependencies
  */
 import HeaderCake from 'components/header-cake';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import QueryActiveTheme from 'components/data/query-active-theme';
 import QueryTheme from 'components/data/query-theme';
 import ThemeSetupCard from './theme-setup-card';

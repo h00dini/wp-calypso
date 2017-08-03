@@ -6,7 +6,7 @@ import React, { PureComponent, PropTypes } from 'react';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import DocumentHead from 'components/data/document-head';
 import DocsSelectorsSingle from './single';
 import DocsSelectorsSearch from './search';

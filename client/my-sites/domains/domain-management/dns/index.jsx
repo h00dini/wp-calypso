@@ -13,7 +13,7 @@ import DnsDetails from './dns-details';
 import DnsList from './dns-list';
 import DomainMainPlaceholder from 'my-sites/domains/domain-management/components/domain/main-placeholder';
 import Header from 'my-sites/domains/domain-management/components/header';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import paths from 'my-sites/domains/paths';
 import { getSelectedDomain, isMappedDomain, isRegisteredDomain } from 'lib/domains';
 import Card from 'components/card/compact';

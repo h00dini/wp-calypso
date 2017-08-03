@@ -8,7 +8,7 @@ import React from 'react';
  * Internal dependencies
  */
 import HeaderCake from 'components/header-cake';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 
 const LoadingPlaceholder = React.createClass( {
 	propTypes: {

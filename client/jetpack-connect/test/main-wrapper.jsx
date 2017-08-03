@@ -9,7 +9,7 @@ import { shallow } from 'enzyme';
  * Internal dependencies
  */
 import JetpackConnectMainWrapper from '../main-wrapper';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 
 describe( 'JetpackConnectMainWrapper', () => {
 	it( 'should render a <Main> instance', () => {

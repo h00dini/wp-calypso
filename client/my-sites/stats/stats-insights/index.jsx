@@ -20,7 +20,7 @@ import statsStrings from '../stats-strings';
 import MostPopular from 'my-sites/stats/most-popular';
 import LatestPostSummary from '../post-performance';
 import DomainTip from 'my-sites/domain-tip';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import StatsFirstView from '../stats-first-view';
 import SectionHeader from 'components/section-header';
 import StatsViews from '../stats-views';

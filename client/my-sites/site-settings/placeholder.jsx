@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import NavItem from 'components/section-nav/item';
 import NavTabs from 'components/section-nav/tabs';
 import SectionHeader from 'components/section-header';

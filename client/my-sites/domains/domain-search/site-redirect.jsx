@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import HeaderCake from 'components/header-cake';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SiteRedirectStep from './site-redirect-step';
 import isSiteUpgradeable from 'state/selectors/is-site-upgradeable';
 import { getSelectedSite, getSelectedSiteId, getSelectedSiteSlug } from 'state/ui/selectors';

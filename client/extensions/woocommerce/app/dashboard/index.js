@@ -24,7 +24,7 @@ import { fetchOrders } from 'woocommerce/state/sites/orders/actions';
 import { fetchProducts } from 'woocommerce/state/sites/products/actions';
 import { getSelectedSiteWithFallback } from 'woocommerce/state/sites/selectors';
 import { getTotalProducts, areProductsLoading, areProductsLoaded } from 'woocommerce/state/sites/products/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import ManageNoOrdersView from './manage-no-orders-view';
 import ManageOrdersView from './manage-orders-view';
 import PreSetupView from './pre-setup-view';

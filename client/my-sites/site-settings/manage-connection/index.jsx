@@ -13,7 +13,7 @@ import DataSynchronization from './data-synchronization';
 import DisconnectSite from './disconnect-site';
 import DocumentHead from 'components/data/document-head';
 import HeaderCake from 'components/header-cake';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SiteOwnership from './site-ownership';
 import { getSelectedSiteId, getSelectedSiteSlug } from 'state/ui/selectors';
 import { isJetpackSite } from 'state/sites/selectors';

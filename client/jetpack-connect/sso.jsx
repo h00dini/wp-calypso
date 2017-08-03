@@ -13,7 +13,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import FormattedHeader from 'components/formatted-header';
 import Card from 'components/card';
 import CompactCard from 'components/card/compact';

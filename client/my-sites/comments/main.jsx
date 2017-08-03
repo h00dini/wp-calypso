@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import getSiteId from 'state/selectors/get-site-id';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import PageViewTracker from 'lib/analytics/page-view-tracker';
 import DocumentHead from 'components/data/document-head';
 import CommentList from './comment-list';

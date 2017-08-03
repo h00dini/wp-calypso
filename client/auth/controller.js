@@ -17,7 +17,7 @@ import config from 'config';
 import store from 'store';
 import WPOAuth from 'wpcom-oauth';
 import userFactory from 'lib/user';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import PulsingDot from 'components/pulsing-dot';
 
 export default {

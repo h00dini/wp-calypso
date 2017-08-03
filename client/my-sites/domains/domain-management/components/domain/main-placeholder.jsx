@@ -8,7 +8,7 @@ import React from 'react';
  */
 import CompactCard from 'components/card/compact';
 import Header from 'my-sites/domains/domain-management/components/header';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import VerticalNav from 'components/vertical-nav';
 import VerticalNavItem from 'components/vertical-nav/item';
 

@@ -7,7 +7,7 @@ import React from 'react';
  * Internal dependencies
  */
 import MeSidebarNavigation from 'me/sidebar-navigation';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import GetAppsIllustration from './illustration.jsx';
 import DesktopDownloadCard from './desktop-download-card.jsx';
 import MobileDownloadCard from './mobile-download-card.jsx';

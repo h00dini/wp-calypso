@@ -16,7 +16,7 @@ import {
 	getSelectedSiteSlug,
 } from 'state/ui/selectors';
 import { isJetpackSite } from 'state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import HeaderCake from 'components/header-cake';
 import Placeholder from 'my-sites/site-settings/placeholder';
 

@@ -16,7 +16,7 @@ var MeSidebarNavigation = require( 'me/sidebar-navigation' ),
 	ReauthRequired = require( 'me/reauth-required' ),
 	twoStepAuthorization = require( 'lib/two-step-authorization' ),
 	SecuritySectionNav = require( 'me/security-section-nav' ),
-	Main = require( 'components/main' );
+	Main = require( '@automattic/simple-components/main' );
 
 module.exports = React.createClass( {
 

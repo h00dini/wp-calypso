@@ -13,7 +13,7 @@ import CdnTab from '../components/cdn';
 import ContentsTab from '../components/contents';
 import DebugTab from '../components/debug';
 import EasyTab from '../components/easy';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Navigation from '../components/navigation';
 import Notice from 'components/notice';
 import PreloadTab from '../components/preload';

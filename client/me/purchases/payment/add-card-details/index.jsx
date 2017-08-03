@@ -15,7 +15,7 @@ import { getSelectedSite as getSelectedSiteSelector } from 'state/ui/selectors';
 import HeaderCake from 'components/header-cake';
 import { isDataLoading, recordPageView } from 'me/purchases/utils';
 import { isRequestingSites } from 'state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import PurchaseCardDetails from 'me/purchases/components/purchase-card-details';
 import QueryUserPurchases from 'components/data/query-user-purchases';
 import titles from 'me/purchases/titles';

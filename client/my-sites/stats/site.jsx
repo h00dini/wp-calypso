@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import StatsPeriodNavigation from './stats-period-navigation';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import StatsNavigation from './stats-navigation';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 import DatePicker from './stats-date-picker';

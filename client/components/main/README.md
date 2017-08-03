@@ -6,7 +6,7 @@ Component used to declare the main area of any given section — it's the main w
 #### How to use:
 
 ```js
-var Main = require( 'components/main' );
+var Main = require( '@automattic/simple-components/main' );
 
 render: function() {
 	return (

@@ -8,7 +8,7 @@ import React from 'react';
  * Internal dependencies
  */
 import ActionHeader from 'woocommerce/components/action-header';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import OrdersList from './orders-list';
 
 function Orders( { className, params, translate } ) {

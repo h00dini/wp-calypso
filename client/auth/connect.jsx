@@ -9,7 +9,7 @@ import Gridicon from 'gridicons';
  */
 import config from 'config';
 import Button from '@automattic/simple-components/button';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Notice from 'components/notice';
 import NoticeAction from 'components/notice/notice-action';
 import WordPressLogo from 'components/wordpress-logo';

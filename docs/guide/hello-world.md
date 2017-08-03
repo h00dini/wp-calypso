@@ -150,7 +150,7 @@ import React from 'react';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 
 export default class HelloWorld extends React.Component {
 

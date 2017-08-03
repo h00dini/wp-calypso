@@ -24,7 +24,7 @@ import twoStepAuthorization from 'lib/two-step-authorization';
 import Card from 'components/card';
 import observe from 'lib/mixins/data-observe';
 import eventRecorder from 'me/event-recorder';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import { isEnabled } from 'config';
 import SectionHeader from 'components/section-header';
 

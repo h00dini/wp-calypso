@@ -11,7 +11,7 @@ import { localize } from 'i18n-calypso';
 import tableRows from './table-rows';
 import eventRecorder from 'me/event-recorder';
 import Card from 'components/card';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import HeaderCake from 'components/header-cake';
 import DocumentHead from 'components/data/document-head';
 import PageViewTracker from 'lib/analytics/page-view-tracker';

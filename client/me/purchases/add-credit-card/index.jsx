@@ -16,7 +16,7 @@ import { createPaygateToken } from 'lib/store-transactions';
 import CreditCardForm from 'blocks/credit-card-form';
 import DocumentHead from 'components/data/document-head';
 import HeaderCake from 'components/header-cake';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import titles from 'me/purchases/titles';
 import purchasesPaths from 'me/purchases/paths';
 

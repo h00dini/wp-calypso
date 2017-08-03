@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import config from 'config';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Card from 'components/card';
 import Notice from 'components/notice';
 import OlarkChatbox from 'components/olark-chatbox';

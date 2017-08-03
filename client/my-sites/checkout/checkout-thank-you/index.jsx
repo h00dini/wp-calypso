@@ -49,7 +49,7 @@ import {
 	isTheme
 } from 'lib/products-values';
 import JetpackPlanDetails from './jetpack-plan-details';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import PersonalPlanDetails from './personal-plan-details';
 import PremiumPlanDetails from './premium-plan-details';
 import BusinessPlanDetails from './business-plan-details';

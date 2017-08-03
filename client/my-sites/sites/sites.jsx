@@ -10,7 +10,7 @@ import i18n from 'i18n-calypso';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import observe from 'lib/mixins/data-observe';
 import SiteSelector from 'components/site-selector';
 import { addSiteFragment } from 'lib/route';

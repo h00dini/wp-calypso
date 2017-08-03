@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SingleSiteThemeShowcaseWpcom from './single-site-wpcom';
 import SingleSiteThemeShowcaseJetpack from './single-site-jetpack';
 import { getSelectedSiteId } from 'state/ui/selectors';

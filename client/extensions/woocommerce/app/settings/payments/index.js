@@ -22,7 +22,7 @@ import { getActionList } from 'woocommerce/state/action-list/selectors';
 import { getFinishedInitialSetup } from 'woocommerce/state/sites/setup-choices/selectors';
 import { getLink } from 'woocommerce/lib/nav-utils';
 import { getSelectedSiteWithFallback } from 'woocommerce/state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SettingsPaymentsLocationCurrency from './payments-location-currency';
 import SettingsNavigation from '../navigation';
 import SettingsPaymentsOffline from './payments-offline';

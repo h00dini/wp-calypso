@@ -14,7 +14,7 @@ import { connect } from 'react-redux';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import HeaderCake from 'components/header-cake';
 import Card from 'components/card';
 import FormLabel from 'components/forms/form-label';

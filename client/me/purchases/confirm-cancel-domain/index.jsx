@@ -28,7 +28,7 @@ import { getPurchase, goToCancelPurchase, isDataLoading, recordPageView } from '
 import { getSelectedSite as getSelectedSiteSelector } from 'state/ui/selectors';
 import { isDomainRegistration } from 'lib/products-values';
 import { isRequestingSites } from 'state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import notices from 'notices';
 import paths from 'me/purchases/paths';
 import QueryUserPurchases from 'components/data/query-user-purchases';

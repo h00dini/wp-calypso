@@ -23,7 +23,7 @@ import { getPurchase, isDataLoading, goToManagePurchase, recordPageView } from '
 import { getSelectedSite as getSelectedSiteSelector } from 'state/ui/selectors';
 import { hasPrivacyProtection, isRefundable } from 'lib/purchases';
 import { isRequestingSites } from 'state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import notices from 'notices';
 import Notice from 'components/notice';
 import paths from '../paths';

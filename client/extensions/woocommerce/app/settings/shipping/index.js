@@ -8,7 +8,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import config from 'config';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import LabelSettings from 'woocommerce/woocommerce-services/views/label-settings';
 import Packages from 'woocommerce/woocommerce-services/views/packages';
 import ShippingHeader from './shipping-header';

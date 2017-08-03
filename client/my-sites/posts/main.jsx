@@ -14,7 +14,7 @@ import PostsNavigation from './posts-navigation';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 import PostList from './post-list';
 import config from 'config';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import QueryPosts from 'components/data/query-posts';
 import QueryPostCounts from 'components/data/query-post-counts';
 import PostItem from 'blocks/post-item';

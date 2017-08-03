@@ -13,7 +13,7 @@ import SiteOverview from './stats-site-overview';
 import SiteOverviewPlaceholder from './stats-overview-placeholder';
 import DatePicker from './stats-date-picker';
 import StatsNavigation from './stats-navigation';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import StatsFirstView from './stats-first-view';
 import QuerySites from 'components/data/query-sites';
 import { getCurrentUser } from 'state/current-user/selectors';

@@ -19,7 +19,7 @@ import { fetchState } from 'lib/importer/actions';
 import { appStates, WORDPRESS, MEDIUM } from 'state/imports/constants';
 import EmailVerificationGate from 'components/email-verification/email-verification-gate';
 import { getSelectedSite, getSelectedSiteSlug } from 'state/ui/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import HeaderCake from 'components/header-cake';
 import Placeholder from 'my-sites/site-settings/placeholder';
 

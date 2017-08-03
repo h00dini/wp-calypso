@@ -15,7 +15,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import QueryCanonicalTheme from 'components/data/query-canonical-theme';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import HeaderCake from 'components/header-cake';
 import SectionHeader from 'components/section-header';
 import ThemeDownloadCard from './theme-download-card';

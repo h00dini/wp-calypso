@@ -25,7 +25,7 @@ import {
 	recordPageView,
 	recordTracksEvent,
 } from 'state/analytics/actions';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import RequestLoginEmailForm from './request-login-email-form';
 import GlobalNotices from 'components/global-notices';
 import Gridicon from 'gridicons';

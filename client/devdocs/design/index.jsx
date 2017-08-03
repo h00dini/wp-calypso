@@ -14,7 +14,7 @@ import trim from 'lodash/trim';
 import config from 'config';
 import fetchComponentsUsageStats from 'state/components-usage-stats/actions';
 import HeaderCake from 'components/header-cake';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SearchCard from 'components/search-card';
 
 /**

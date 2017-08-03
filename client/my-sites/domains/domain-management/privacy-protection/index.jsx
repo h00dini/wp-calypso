@@ -16,7 +16,7 @@ import DomainMainPlaceholder from 'my-sites/domains/domain-management/components
 import Header from 'my-sites/domains/domain-management/components/header';
 import { getProductDisplayCost } from 'state/products-list/selectors';
 import { getSelectedDomain } from 'lib/domains';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import paths from 'my-sites/domains/paths';
 import QueryProductsList from 'components/data/query-products-list';
 import { type as domainTypes } from 'lib/domains/constants';

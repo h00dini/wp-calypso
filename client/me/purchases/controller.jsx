@@ -13,7 +13,7 @@ import CancelPrivacyProtection from './cancel-privacy-protection';
 import CancelPurchase from './cancel-purchase';
 import ConfirmCancelDomain from './confirm-cancel-domain';
 import EditCardDetails from './payment/edit-card-details';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import ManagePurchase from './manage-purchase';
 import NoSitesMessage from 'components/empty-content/no-sites-message';
 import paths from './paths';

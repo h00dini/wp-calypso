@@ -6,7 +6,7 @@ import React from 'react';
 /**
  * Internal Dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SyncReaderFollows from 'components/data/sync-reader-follows';
 
 /**

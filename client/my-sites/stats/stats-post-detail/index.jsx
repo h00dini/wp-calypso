@@ -17,7 +17,7 @@ import PostWeeks from '../stats-detail-weeks';
 import StatsPlaceholder from '../stats-module/placeholder';
 import HeaderCake from 'components/header-cake';
 import { decodeEntities } from 'lib/formatting';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import StatsFirstView from '../stats-first-view';
 import PostLikes from '../stats-post-likes';
 import QueryPosts from 'components/data/query-posts';

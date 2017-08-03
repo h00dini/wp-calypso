@@ -15,7 +15,7 @@ import { fetchOrder } from 'woocommerce/state/sites/orders/actions';
 import { getSelectedSiteWithFallback } from 'woocommerce/state/sites/selectors';
 import { getLink } from 'woocommerce/lib/nav-utils';
 import { isOrderUpdating, getOrder } from 'woocommerce/state/sites/orders/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import OrderCustomerInfo from './order-customer-info';
 import OrderDetails from './order-details';
 import { updateOrder } from 'woocommerce/state/sites/orders/actions';

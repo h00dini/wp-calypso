@@ -9,7 +9,7 @@ import React from 'react';
  */
 import { navigation, siteSelection } from 'my-sites/controller';
 import { renderWithReduxStore } from 'lib/react-helpers';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Card from 'components/card';
 import SectionHeader from 'components/section-header';
 

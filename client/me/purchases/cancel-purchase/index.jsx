@@ -33,7 +33,7 @@ import HeaderCake from 'components/header-cake';
 import { isDataLoading } from 'me/purchases/utils';
 import { isDomainRegistration } from 'lib/products-values';
 import { isRequestingSites } from 'state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import paths from '../paths';
 import QueryUserPurchases from 'components/data/query-user-purchases';
 import ProductLink from 'me/purchases/product-link';

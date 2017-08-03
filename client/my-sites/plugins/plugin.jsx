@@ -19,7 +19,7 @@ import PluginsActions from 'lib/plugins/actions';
 import { fetchPluginData as wporgFetchPluginData } from 'state/plugins/wporg/actions';
 import JetpackSite from 'lib/site/jetpack';
 import PluginNotices from 'lib/plugins/notices';
-import MainComponent from 'components/main';
+import MainComponent from '@automattic/simple-components/main';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 import JetpackManageErrorPage from 'my-sites/jetpack-manage-error-page';
 import PluginSections from 'my-sites/plugins/plugin-sections';

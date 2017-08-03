@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal Dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Card from 'components/card/compact';
 import Header from 'my-sites/domains/domain-management/components/header';
 import Notice from 'components/notice';

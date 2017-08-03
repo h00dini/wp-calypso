@@ -10,7 +10,7 @@ import debug from 'debug';
  */
 var DocService = require( './service' ),
 	Card = require( 'components/card' ),
-	Main = require( 'components/main' ),
+	Main = require( '@automattic/simple-components/main' ),
 	SearchCard = require( 'components/search-card' );
 
 /**

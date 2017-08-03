@@ -11,7 +11,7 @@ import { localize } from 'i18n-calypso';
  */
 import DomainMainPlaceholder from 'my-sites/domains/domain-management/components/domain/main-placeholder';
 import Header from 'my-sites/domains/domain-management/components/header';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import NonOwnerCard from 'my-sites/domains/domain-management/components/domain/non-owner-card';
 import paths from 'my-sites/domains/paths';
 import { getSelectedDomain } from 'lib/domains';

@@ -24,7 +24,7 @@ import JetpackPluginsPanel from './jetpack-plugins-panel';
 import PageViewTracker from 'lib/analytics/page-view-tracker';
 import { PLAN_BUSINESS, FEATURE_UPLOAD_PLUGINS } from 'lib/plans/constants';
 import Banner from 'components/banner';
-import MainComponent from 'components/main';
+import MainComponent from '@automattic/simple-components/main';
 import EmptyContent from 'components/empty-content';
 
 export const PluginPanel = ( {

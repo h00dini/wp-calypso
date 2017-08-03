@@ -11,7 +11,7 @@ import { slugToCamelCase } from 'devdocs/docs-example/util';
  */
 import Collection from 'devdocs/design/search-collection';
 import HeaderCake from 'components/header-cake';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SearchCard from 'components/search-card';
 import { isEnabled } from 'config';
 

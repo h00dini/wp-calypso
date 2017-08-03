@@ -16,7 +16,7 @@ import statsStringsFactory from '../stats-strings';
 import Countries from '../stats-countries';
 import StatsVideoSummary from '../stats-video-summary';
 import VideoPlayDetails from '../stats-video-details';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import StatsFirstView from '../stats-first-view';
 import QueryMedia from 'components/data/query-media';
 import { getSelectedSiteId } from 'state/ui/selectors';

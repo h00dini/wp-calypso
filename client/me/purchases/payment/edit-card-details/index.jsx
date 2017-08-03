@@ -16,7 +16,7 @@ import { getStoredCardById, hasLoadedStoredCardsFromServer } from 'state/stored-
 import HeaderCake from 'components/header-cake';
 import { isDataLoading, recordPageView } from 'me/purchases/utils';
 import { isRequestingSites } from 'state/sites/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import PurchaseCardDetails from 'me/purchases/components/purchase-card-details';
 import QueryStoredCards from 'components/data/query-stored-cards';
 import QueryUserPurchases from 'components/data/query-user-purchases';

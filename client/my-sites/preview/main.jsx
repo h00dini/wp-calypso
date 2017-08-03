@@ -20,7 +20,7 @@ import Button from '@automattic/simple-components/button';
 import DocumentHead from 'components/data/document-head';
 import EmptyContent from 'components/empty-content';
 import Gridicon from 'gridicons';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import WebPreviewContent from 'components/web-preview/content';
 
 const debug = debugFactory( 'calypso:my-sites:preview' );

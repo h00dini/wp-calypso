@@ -9,7 +9,7 @@ import cookie from 'cookie';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import LoggedOutFormLinks from 'components/logged-out-form/links';
 import {
 	createAccount,

@@ -16,7 +16,7 @@ import {
 import config from 'config';
 import notices from 'notices';
 import urlSearch from 'lib/url-search';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import NavItem from 'components/section-nav/item';
 import NavTabs from 'components/section-nav/tabs';
 import PageList from './page-list';

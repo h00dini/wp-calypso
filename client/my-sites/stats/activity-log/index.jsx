@@ -16,7 +16,7 @@ import {
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import { getSelectedSiteId } from 'state/ui/selectors';
 import {
 	getSiteSlug,

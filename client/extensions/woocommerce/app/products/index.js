@@ -21,7 +21,7 @@ import {
 	areProductsLoaded,
 	areProductsLoading,
 } from 'woocommerce/state/sites/products/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import ProductsList from './products-list';
 import ProductsListSearchResults from './products-list-search-results';
 import SidebarNavigation from 'my-sites/sidebar-navigation';

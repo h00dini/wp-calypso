@@ -9,7 +9,7 @@ import { find, isEmpty, some } from 'lodash';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 import pluginsAccessControl from 'my-sites/plugins/access-control';
 import PluginItem from './plugin-item/plugin-item';

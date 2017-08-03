@@ -20,7 +20,7 @@ This component takes control of the floating olark chat widget and inlines it wi
 
 ```js
 var React = require( 'react' ),
-	Main = require( 'components/main' ),
+	Main = require( '@automattic/simple-components/main' ),
 	OlarkChatbox = require( 'components/olark-chatbox' );
 
 module.exports = React.createClass( {

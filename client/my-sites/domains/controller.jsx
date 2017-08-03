@@ -12,7 +12,7 @@ import { get } from 'lodash';
  */
 import analytics from 'lib/analytics';
 import route from 'lib/route';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import upgradesActions from 'lib/upgrades/actions';
 import { setDocumentHeadTitle as setTitle } from 'state/document-head/actions';
 import productsFactory from 'lib/products-list';

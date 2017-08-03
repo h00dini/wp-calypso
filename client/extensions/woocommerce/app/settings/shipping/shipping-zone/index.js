@@ -11,7 +11,7 @@ import page from 'page';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import QueryShippingZones, { areShippingZonesFullyLoaded } from 'woocommerce/components/query-shipping-zones';
 import QuerySettingsGeneral from 'woocommerce/components/query-settings-general';
 import { areSettingsGeneralLoaded } from 'woocommerce/state/sites/settings/general/selectors';

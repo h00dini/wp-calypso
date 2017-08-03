@@ -408,7 +408,7 @@ module.exports = {
 
 	jetPackWarning( context, next ) {
 		const { getState } = getStore( context );
-		const Main = require( 'components/main' );
+		const Main = require( '@automattic/simple-components/main' );
 		const JetpackManageErrorPage = require( 'my-sites/jetpack-manage-error-page' );
 		const basePath = route.sectionify( context.path );
 		const selectedSite = getSelectedSite( getState() );

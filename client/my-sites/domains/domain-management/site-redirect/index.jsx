@@ -16,7 +16,7 @@ import FormFieldset from 'components/forms/form-fieldset';
 import FormFooter from 'my-sites/domains/domain-management/components/form-footer';
 import FormLabel from 'components/forms/form-label';
 import FormTextInputWithAffixes from 'components/forms/form-text-input-with-affixes';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Notice from 'components/notice';
 import notices from 'notices';
 import paths from 'my-sites/domains/paths';

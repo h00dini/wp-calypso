@@ -26,7 +26,7 @@ Olarks api does not allow you to unbind from their events which prevents us from
 
 ```js
 var React = require( 'react' ),
-	Main = require( 'components/main' ),
+	Main = require( '@automattic/simple-components/main' ),
 	olarkEvents = require( 'lib/olark-events' );
 
 module.exports = React.createClass( {

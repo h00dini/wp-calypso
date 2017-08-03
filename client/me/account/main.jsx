@@ -41,7 +41,7 @@ import Notice from 'components/notice';
 import NoticeAction from 'components/notice/notice-action';
 import observe from 'lib/mixins/data-observe';
 import eventRecorder from 'me/event-recorder';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import SitesDropdown from 'components/sites-dropdown';
 import { successNotice, errorNotice } from 'state/notices/actions';
 import { getLanguage } from 'lib/i18n-utils';

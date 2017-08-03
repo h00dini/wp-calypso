@@ -9,7 +9,7 @@ import i18n from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import QuerySiteGuidedTransfer from 'components/data/query-site-guided-transfer';
 import HeaderCake from 'components/header-cake';
 import HostCredentialsPage from './host-credentials-page';

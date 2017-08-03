@@ -24,7 +24,7 @@ import ReauthRequired from 'me/reauth-required';
 import twoStepAuthorization from 'lib/two-step-authorization';
 import observe from 'lib/mixins/data-observe';
 import eventRecorder from 'me/event-recorder';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 
 module.exports = protectForm( React.createClass( {
 	displayName: 'NotificationSubscriptions',

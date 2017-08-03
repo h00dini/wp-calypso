@@ -17,7 +17,7 @@ import {
 } from 'state/purchases/selectors';
 import { getSites } from 'state/selectors';
 import { getPurchasesBySite } from 'lib/purchases';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import MeSidebarNavigation from 'me/sidebar-navigation';
 import PurchasesHeader from './header';
 import PurchasesSite from '../purchases-site';

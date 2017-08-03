@@ -14,7 +14,7 @@ import { getSelectedSiteId, getSelectedSiteSlug } from 'state/ui/selectors';
 import { getUnitPeriod } from './utils';
 import HeaderCake from 'components/header-cake';
 import List from './store-stats-list';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import Module from './store-stats-module';
 import SectionNav from 'components/section-nav';
 import StatsPeriodNavigation from 'my-sites/stats/stats-period-navigation';

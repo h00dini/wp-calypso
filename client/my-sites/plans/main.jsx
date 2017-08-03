@@ -10,7 +10,7 @@ import React from 'react';
  */
 import DocumentHead from 'components/data/document-head';
 import { getSelectedSite, getSelectedSiteId } from 'state/ui/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import PageViewTracker from 'lib/analytics/page-view-tracker';
 import PlansFeaturesMain from 'my-sites/plans-features-main';
 import SidebarNavigation from 'my-sites/sidebar-navigation';

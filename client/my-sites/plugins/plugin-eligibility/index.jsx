@@ -9,7 +9,7 @@ import page from 'page';
 /**
  * Internal dependencies
  */
-import MainComponent from 'components/main';
+import MainComponent from '@automattic/simple-components/main';
 import HeaderCake from 'components/header-cake';
 import EligibilityWarnings from 'blocks/eligibility-warnings';
 import { initiateThemeTransfer } from 'state/themes/actions';

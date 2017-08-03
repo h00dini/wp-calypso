@@ -17,7 +17,7 @@ import {
 	isJetpackSite,
 } from 'state/sites/selectors';
 import { getSelectedSiteId } from 'state/ui/selectors';
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import NavItem from 'components/section-nav/item';
 import NavTabs from 'components/section-nav/tabs';
 import QueryJetpackModules from 'components/data/query-jetpack-modules';

@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Main from 'components/main';
+import Main from '@automattic/simple-components/main';
 import CompactCard from 'components/card/compact';
 import QueryAccountRecoverySettings from 'components/data/query-account-recovery-settings';
 import MeSidebarNavigation from 'me/sidebar-navigation';
