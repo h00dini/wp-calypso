@@ -1,5 +1,5 @@
-/** @format */
 /**
+ * @format
  * @jest-environment jsdom
  */
 jest.mock( 'lib/feed-stream-store/actions', () => ( {

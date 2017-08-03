@@ -1,8 +1,8 @@
-/** @format */
 /**
+ * @format
  * @jest-environment jsdom
  */
-jest.mock( 'config', () => () => require( './fixtures' ).discoverSiteId );
+jest.mock( 'config', () => () => require( './fixtures' ).discoverSiteId  );
 jest.mock( 'lib/user/utils', () => ( { getLocaleSlug: () => 'en' } ) );
 
 /**

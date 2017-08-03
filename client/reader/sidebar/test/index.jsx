@@ -1,5 +1,5 @@
-/** @format */
 /**
+ * @format
  * @jest-environment jsdom
  */
 jest.mock( 'component-closest', () => require( 'sinon' ).stub() );
@@ -24,10 +24,7 @@ import { shallow } from 'enzyme';
 /**
  * Internal dependencies
  */
-import {
-	ReaderSidebar,
-	shouldRenderAppPromo
-} from '..';
+import { ReaderSidebar, shouldRenderAppPromo } from '..';
 
 describe( 'ReaderSidebar', () => {
 	const shouldRenderAppPromoDefaultProps = {
