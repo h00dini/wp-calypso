@@ -12,7 +12,7 @@ import { abtest } from 'lib/abtest';
 import { recordEvent } from 'lib/posts/stats';
 import postUtils from 'lib/posts/utils';
 import siteUtils from 'lib/site/utils';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { localize } from 'i18n-calypso';
 import { getSelectedSiteId } from 'state/ui/selectors';
 import { getEditorPostId } from 'state/ui/editor/selectors';

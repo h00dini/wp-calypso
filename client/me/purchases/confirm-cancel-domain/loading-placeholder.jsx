@@ -6,7 +6,7 @@ import React from 'react';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { cancelPurchase } from 'me/purchases/paths';
 import Card from 'components/card';
 import CompactCard from 'components/card/compact';

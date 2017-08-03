@@ -11,7 +11,7 @@ import { noop } from 'lodash';
  * Internal dependencies
  */
 import AutoDirection from 'components/auto-direction';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import CommentDetailActions from './comment-detail-actions';
 import Gravatar from 'components/gravatar';
 import FormCheckbox from 'components/forms/form-checkbox';

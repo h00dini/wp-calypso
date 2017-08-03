@@ -11,7 +11,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Dialog from 'components/dialog';
 import Notice from 'components/notice';
 import {

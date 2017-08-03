@@ -10,7 +10,7 @@ import React, { Component } from 'react';
  * Internal dependencies
  */
 import ActionHeader from 'woocommerce/components/action-header';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { fetchOrder } from 'woocommerce/state/sites/orders/actions';
 import { getSelectedSiteWithFallback } from 'woocommerce/state/sites/selectors';
 import { getLink } from 'woocommerce/lib/nav-utils';

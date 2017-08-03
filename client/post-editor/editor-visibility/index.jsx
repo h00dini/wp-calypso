@@ -21,7 +21,7 @@ import FormLegend from 'components/forms/form-legend';
 import FormRadio from 'components/forms/form-radio';
 import FormTextInput from 'components/forms/form-text-input';
 import FormSettingExplanation from 'components/forms/form-setting-explanation';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Popover from 'components/popover';
 import SelectDropdown from 'components/select-dropdown';
 import DropdownItem from 'components/select-dropdown/item';

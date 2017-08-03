@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import FormFieldset from 'components/forms/form-fieldset';
 import FormLegend from 'components/forms/form-legend';
 import ResetOptionSet from './reset-option-set';

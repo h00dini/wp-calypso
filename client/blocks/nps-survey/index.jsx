@@ -10,7 +10,7 @@ import { noop } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import RecommendationSelect from './recommendation-select';
 import {

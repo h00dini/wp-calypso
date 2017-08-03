@@ -13,7 +13,7 @@ import Gridicon from 'gridicons';
 import config from 'config';
 import { abtest } from 'lib/abtest';
 import AsyncLoad from 'components/async-load';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import FormToggle from 'components/forms/form-toggle/compact';
 import Revisions from 'post-editor/editor-revisions';
 import postUtils from 'lib/posts/utils';

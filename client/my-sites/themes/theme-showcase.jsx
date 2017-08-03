@@ -12,7 +12,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import Main from 'components/main';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ThemesSelection from './themes-selection';
 import SubMasterbarNav from 'components/sub-masterbar-nav';
 import PageViewTracker from 'lib/analytics/page-view-tracker';

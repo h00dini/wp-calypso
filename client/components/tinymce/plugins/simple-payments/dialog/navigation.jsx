@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
  */
 import SectionHeader from 'components/section-header';
 import HeaderCake from 'components/header-cake';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 class SimplePaymentsDialogNavigation extends Component {
 	static propTypes = {

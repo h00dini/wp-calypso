@@ -10,7 +10,7 @@ import { noop } from 'lodash';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import FormLabel from 'components/forms/form-label';
 import FormTextInput from 'components/forms/form-text-input';
 import Spinner from 'components/spinner';

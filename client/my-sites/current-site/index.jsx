@@ -12,7 +12,7 @@ import { localize } from 'i18n-calypso';
  */
 import AllSites from 'my-sites/all-sites';
 import analytics from 'lib/analytics';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import Site from 'blocks/site';
 import Gridicon from 'gridicons';

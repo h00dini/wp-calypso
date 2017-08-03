@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
  */
 import Card from 'components/card';
 import analytics from 'lib/analytics';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 export default localize( ( props ) => {
 	const {

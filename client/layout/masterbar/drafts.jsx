@@ -20,7 +20,7 @@ import {
 import Draft from 'my-sites/draft';
 import QueryPosts from 'components/data/query-posts';
 import QueryPostCounts from 'components/data/query-post-counts';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Site from 'blocks/site';
 import { getCurrentUserId } from 'state/current-user/selectors';
 

@@ -9,7 +9,7 @@ import React, { Children } from 'react';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 class FormButton extends React.Component {
 	static defaultProps = {

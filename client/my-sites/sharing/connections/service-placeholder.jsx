@@ -9,7 +9,7 @@ import GridIcon from 'gridicons';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import FoldableCard from 'components/foldable-card';
 
 class SharingServicePlaceholder extends Component {

@@ -8,7 +8,7 @@ var React = require( 'react' ),
  * Internal dependencies
  */
 var ButtonGroup = require( 'components/button-group' ),
-	Button = require( 'components/button' ),
+	Button = require( '@automattic/simple-components/button' ),
 	Card = require( 'components/card' ),
 	Gridicon = require( 'gridicons' );
 

@@ -24,7 +24,7 @@ import SearchDemo from 'components/search/docs/example';
 import Notices from 'components/notice/docs/example';
 import GlobalNotices from 'components/global-notices/docs/example';
 import Gravatar from 'components/gravatar/docs/example';
-import Buttons from 'components/button/docs/example';
+import Buttons from '@automattic/simple-components/button/docs/example';
 import ButtonGroups from 'components/button-group/docs/example';
 import Gridicons from 'gridicons/build/example';
 import Accordions from 'components/accordion/docs/example';

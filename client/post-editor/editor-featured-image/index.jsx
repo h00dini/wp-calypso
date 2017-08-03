@@ -17,7 +17,7 @@ import PostActions from 'lib/posts/actions';
 import PostUtils from 'lib/posts/utils';
 import * as stats from 'lib/posts/stats';
 import EditorFeaturedImagePreviewContainer from './preview-container';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { getMediaItem } from 'state/selectors';
 import { getFeaturedImageId } from 'lib/posts/utils';
 import QueryMedia from 'components/data/query-media';

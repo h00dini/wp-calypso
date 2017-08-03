@@ -35,7 +35,7 @@ import {
 } from 'state/ui/editor/contact-form/actions';
 import AddImageDialog from './add-image-dialog';
 import AddLinkDialog from './add-link-dialog';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ContactFormDialog from 'components/tinymce/plugins/contact-form/dialog';
 import EditorMediaModal from 'post-editor/editor-media-modal';
 import MediaLibraryDropZone from 'my-sites/media-library/drop-zone';

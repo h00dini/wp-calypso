@@ -6,7 +6,7 @@ This component is used to implement dang sweet buttons.
 #### How to use:
 
 ```jsx
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 export default function RockOnButton() {
 	return (

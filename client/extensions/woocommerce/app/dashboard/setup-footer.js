@@ -6,7 +6,7 @@ import React, { PropTypes } from 'react';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 const SetupFooter = ( { disabled, label, onClick, primary } ) => {
 	return (

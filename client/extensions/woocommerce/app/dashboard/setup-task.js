@@ -10,7 +10,7 @@ import React, { Component, PropTypes } from 'react';
  * Internal dependencies
  */
 import analytics from 'lib/analytics';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 class SetupTask extends Component {
 	static propTypes = {

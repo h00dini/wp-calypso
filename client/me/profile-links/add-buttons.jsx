@@ -5,7 +5,7 @@ import React from 'react';
 import Gridicon from 'gridicons';
 
 // Internal dependencies
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import observe from 'lib/mixins/data-observe';
 import eventRecorder from 'me/event-recorder';
 import PopoverMenu from 'components/popover/menu';

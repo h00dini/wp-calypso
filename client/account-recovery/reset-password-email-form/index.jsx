@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import { clearResetMethod } from 'state/account-recovery/reset/actions';
 

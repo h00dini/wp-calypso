@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { isBeingProcessed } from 'lib/domains/dns';
 
 class DnsRecord extends React.Component {

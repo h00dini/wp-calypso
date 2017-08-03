@@ -23,7 +23,7 @@ import {
 	getSitePostsForQueryIgnoringPage,
 	isRequestingSitePostsForQuery
 } from 'state/posts/selectors';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Count from 'components/count';
 import SectionHeader from 'components/section-header';
 import { sectionify } from 'lib/route/path';

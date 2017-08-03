@@ -8,7 +8,7 @@ var React = require( 'react' ),
  * Internal dependencies
  */
 var SectionHeader = require( 'components/section-header' ),
-	Button = require( 'components/button' );
+	Button = require( '@automattic/simple-components/button' );
 
 var Cards = React.createClass( {
 	displayName: 'SectionHeader',

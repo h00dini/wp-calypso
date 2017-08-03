@@ -10,7 +10,7 @@ import { isObject } from 'lodash';
  * Internal dependencies
  */
 import ActionHeader from 'woocommerce/components/action-header';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { getLink } from 'woocommerce/lib/nav-utils';
 
 function renderViewButton( product, translate ) {

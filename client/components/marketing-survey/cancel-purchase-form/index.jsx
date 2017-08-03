@@ -17,7 +17,7 @@ import FormTextInput from 'components/forms/form-text-input';
 import FormTextarea from 'components/forms/form-textarea';
 import FormSectionHeading from 'components/forms/form-section-heading';
 import { recordTracksEvent } from 'state/analytics/actions';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import HappychatButton from 'components/happychat/button';
 import * as steps from './steps';
 import BusinessATStep from './stepComponents/business-at-step';

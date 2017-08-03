@@ -12,7 +12,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import analytics from 'lib/analytics';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { submitSignupStep } from 'lib/signup/actions';
 import signupUtils from 'signup/utils';
 

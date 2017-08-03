@@ -20,7 +20,7 @@ import urlSearch from 'lib/url-search';
 import CompactCard from 'components/card/compact';
 import PluginIcon from 'my-sites/plugins/plugin-icon/plugin-icon';
 import ButtonGroup from 'components/button-group';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import JetpackPluginItem from './jetpack-plugin-item';
 import SectionHeader from 'components/section-header';
 import SectionNav from 'components/section-nav';

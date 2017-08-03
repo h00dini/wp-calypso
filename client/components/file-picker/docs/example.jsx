@@ -7,7 +7,7 @@ import React from 'react';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import FilePicker from 'components/file-picker';
 
 export default class FilePickers extends React.Component {

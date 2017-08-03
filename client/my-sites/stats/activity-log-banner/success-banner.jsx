@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import ActivityLogBanner from './index';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import TrackComponentView from 'lib/analytics/track-component-view';
 import { getSiteUrl } from 'state/selectors';
 import { dismissRewindRestoreProgress as dismissRewindRestoreProgressAction } from 'state/activity-log/actions';

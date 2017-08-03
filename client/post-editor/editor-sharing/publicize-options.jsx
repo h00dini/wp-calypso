@@ -16,7 +16,7 @@ import PublicizeServices from './publicize-services';
 import * as paths from 'lib/paths';
 import PostMetadata from 'lib/post-metadata';
 import PopupMonitor from 'lib/popup-monitor';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import siteUtils from 'lib/site/utils';
 import { recordStat, recordEvent } from 'lib/posts/stats';
 import { getSelectedSiteId } from 'state/ui/selectors';

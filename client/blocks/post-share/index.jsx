@@ -15,7 +15,7 @@ import Gridicon from 'gridicons';
 import QueryPostTypes from 'components/data/query-post-types';
 import QueryPosts from 'components/data/query-posts';
 import QueryPublicizeConnections from 'components/data/query-publicize-connections';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ButtonGroup from 'components/button-group';
 import NoticeAction from 'components/notice/notice-action';
 import {

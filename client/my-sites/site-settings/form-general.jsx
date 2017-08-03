@@ -13,7 +13,7 @@ import { flowRight } from 'lodash';
 import wrapSettingsForm from './wrap-settings-form';
 import Card from 'components/card';
 import CompactCard from 'components/card/compact';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import LanguageSelector from 'components/forms/language-selector';
 import SectionHeader from 'components/section-header';
 import config from 'config';

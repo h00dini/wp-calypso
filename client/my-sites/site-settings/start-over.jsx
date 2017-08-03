@@ -15,7 +15,7 @@ import ActionPanelTitle from 'my-sites/site-settings/action-panel/title';
 import ActionPanelBody from 'my-sites/site-settings/action-panel/body';
 import ActionPanelFigure from 'my-sites/site-settings/action-panel/figure';
 import ActionPanelFooter from 'my-sites/site-settings/action-panel/footer';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import support from 'lib/url/support';
 import { getSelectedSiteSlug } from 'state/ui/selectors';
 

@@ -31,7 +31,7 @@ import MediaStore from 'lib/media/store';
 import MediaUtils from 'lib/media/utils';
 import MediaValidationStore from 'lib/media/validation-store';
 import { ValidationErrors } from 'lib/media/constants';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 class UploadImage extends Component {
 	state = {

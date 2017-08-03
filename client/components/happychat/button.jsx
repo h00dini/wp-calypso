@@ -20,7 +20,7 @@ import {
 } from 'state/happychat/selectors';
 import { connectChat } from 'state/happychat/actions';
 import { openChat } from 'state/ui/happychat/actions';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 class HappychatButton extends Component {
 	static propTypes = {

@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
  */
 import { localize } from 'i18n-calypso';
 import Dialog from 'components/dialog';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { recordGoogleEvent } from 'state/analytics/actions';
 
 class DisconnectJetpackDialog extends PureComponent {

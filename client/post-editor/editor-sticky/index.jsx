@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import Tooltip from 'components/tooltip';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { recordStat, recordEvent } from 'lib/posts/stats';
 import { editPost } from 'state/posts/actions';
 import { getSelectedSiteId } from 'state/ui/selectors';

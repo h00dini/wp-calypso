@@ -11,7 +11,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import support from 'lib/url/support';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import upgradesActions from 'lib/upgrades/actions';
 import { errorNotice } from 'state/notices/actions';

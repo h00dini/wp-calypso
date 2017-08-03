@@ -11,7 +11,7 @@ import { connect } from 'react-redux';
 import config from 'config';
 import SectionHeader from 'components/section-header';
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import JetpackModuleToggle from 'my-sites/site-settings/jetpack-module-toggle';
 import FormLegend from 'components/forms/form-legend';
 import FormFieldset from 'components/forms/form-fieldset';

@@ -28,7 +28,7 @@ import {
 import { recordTracksEvent } from 'state/analytics/actions';
 import { getSelectedSiteSlug } from 'state/ui/selectors';
 import { getValidFeatureKeys } from 'lib/plans';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import DismissibleCard from 'blocks/dismissible-card';
 import PlanIcon from 'components/plans/plan-icon';

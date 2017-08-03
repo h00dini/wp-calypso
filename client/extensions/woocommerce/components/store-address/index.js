@@ -11,7 +11,7 @@ import { connect } from 'react-redux';
  * Internal dependencies
  */
 import AddressView from 'woocommerce/components/address-view';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import Dialog from 'components/dialog';
 import { successNotice, errorNotice } from 'state/notices/actions';

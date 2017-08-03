@@ -11,7 +11,7 @@ import { get, includes } from 'lodash';
  * Internal dependencies
  */
 import Dialog from 'components/dialog';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Spinner from 'components/spinner';
 import { getCurrentUserEmail } from 'state/current-user/selectors';
 import {

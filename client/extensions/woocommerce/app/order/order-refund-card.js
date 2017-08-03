@@ -11,7 +11,7 @@ import React, { Component, PropTypes } from 'react';
  * Internal dependencies
  */
 import { arePaymentMethodsLoaded, getPaymentMethod } from 'woocommerce/state/sites/payment-methods/selectors';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Dialog from 'components/dialog';
 import { fetchPaymentMethods } from 'woocommerce/state/sites/payment-methods/actions';
 import formatCurrency from 'lib/format-currency';

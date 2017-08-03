@@ -21,7 +21,7 @@ import SectionHeader from 'components/section-header';
 import ThemeDownloadCard from './theme-download-card';
 import ThemesRelatedCard from './themes-related-card';
 import ThemePreview from 'my-sites/themes/theme-preview';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import SectionNav from 'components/section-nav';
 import NavTabs from 'components/section-nav/tabs';
 import NavItem from 'components/section-nav/item';

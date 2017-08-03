@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import PopoverMenu from 'components/popover/menu';
 
 class EllipsisMenu extends Component {

@@ -12,7 +12,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import analytics from 'lib/analytics';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import config from 'config';
 import CurrentSite from 'my-sites/current-site';
 import productsValues from 'lib/products-values';

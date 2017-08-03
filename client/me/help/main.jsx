@@ -21,7 +21,7 @@ import MeSidebarNavigation from 'me/sidebar-navigation';
 import HelpSearch from './help-search';
 import HelpTeaserButton from './help-teaser-button';
 import CompactCard from 'components/card/compact';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import SectionHeader from 'components/section-header';
 import HelpResult from './help-results/item';
 import HelpUnverifiedWarning from './help-unverified-warning';

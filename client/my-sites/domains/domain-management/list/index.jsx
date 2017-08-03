@@ -20,7 +20,7 @@ import ListItemPlaceholder from './item-placeholder';
 import Main from 'components/main';
 import paths from 'my-sites/domains/paths';
 import SectionHeader from 'components/section-header';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import UpgradesNavigation from 'my-sites/domains/navigation';
 import SidebarNavigation from 'my-sites/sidebar-navigation';
 import { setPrimaryDomain } from 'lib/upgrades/actions/domain-management';

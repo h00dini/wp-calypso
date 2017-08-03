@@ -19,7 +19,7 @@ import EditorMediaModalDetailPreviewImage from './detail-preview-image';
 import EditorMediaModalDetailPreviewVideo from './detail-preview-video';
 import EditorMediaModalDetailPreviewAudio from './detail-preview-audio';
 import EditorMediaModalDetailPreviewDocument from './detail-preview-document';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import QueryJetpackModules from 'components/data/query-jetpack-modules';
 import { userCan } from 'lib/site/utils';
 import versionCompare from 'lib/version-compare';

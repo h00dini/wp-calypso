@@ -8,7 +8,7 @@ and optional actions buttons.
 
 ```js
 var SectionHeader = require( 'components/section-header' ),
-	Button = require( 'components/button' );
+	Button = require( '@automattic/simple-components/button' );
 
 render: function() {
 	return (

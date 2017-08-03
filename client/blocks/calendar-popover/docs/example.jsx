@@ -8,7 +8,7 @@ import { moment } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import CalendarPopover from 'blocks/calendar-popover';
 
 const tomorrow = date => date.date( date.date() + 1 );

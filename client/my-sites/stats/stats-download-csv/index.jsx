@@ -12,7 +12,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import titlecase from 'to-title-case';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { getSiteStatsCSVData, isRequestingSiteStatsForQuery } from 'state/stats/lists/selectors';
 import { recordGoogleEvent } from 'state/analytics/actions';
 import QuerySiteStats from 'components/data/query-site-stats';

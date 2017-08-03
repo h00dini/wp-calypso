@@ -11,7 +11,7 @@ import { intersection } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import PostSchedule from 'components/post-schedule';
 import utils from 'lib/posts/utils';
 

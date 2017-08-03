@@ -11,7 +11,7 @@ import { localize } from 'i18n-calypso';
  */
 import wrapSettingsForm from './wrap-settings-form';
 import SectionHeader from 'components/section-header';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Protect from './protect';
 import Sso from './sso';
 import QueryJetpackModules from 'components/data/query-jetpack-modules';

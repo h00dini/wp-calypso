@@ -10,7 +10,7 @@ import React, { PropTypes, Component } from 'react';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import FoldableCard from 'components/foldable-card';
 import FormLabel from 'components/forms/form-label';
 import FormTextInput from 'components/forms/form-text-input';

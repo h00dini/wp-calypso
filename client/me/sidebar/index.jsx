@@ -20,7 +20,7 @@ const Sidebar = require( 'layout/sidebar' ),
 	eventRecorder = require( 'me/event-recorder' ),
 	user = require( 'lib/user' )();
 
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import purchasesPaths from 'me/purchases/paths';
 import { setNextLayoutFocus } from 'state/ui/layout-focus/actions';
 import { getCurrentUser } from 'state/current-user/selectors';

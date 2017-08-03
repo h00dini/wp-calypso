@@ -9,7 +9,7 @@ var React = require( 'react' ),
  */
 var Security2faBackupCodesPrompt = require( 'me/security-2fa-backup-codes-prompt' ),
 	SectionHeader = require( 'components/section-header' ),
-	Button = require( 'components/button' ),
+	Button = require( '@automattic/simple-components/button' ),
 	Card = require( 'components/card' ),
 	eventRecorder = require( 'me/event-recorder' ),
 	twoStepAuthorization = require( 'lib/two-step-authorization' ),

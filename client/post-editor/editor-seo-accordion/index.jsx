@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import Accordion from 'components/accordion';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import AccordionSection from 'components/accordion/section';
 import CountedTextarea from 'components/forms/counted-textarea';
 import PostActions from 'lib/posts/actions';

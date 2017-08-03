@@ -11,7 +11,7 @@ import { localize } from 'i18n-calypso';
  * Internal Dependencies
  */
 import config from 'config';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { cancelAndRefundPurchase, cancelPurchase, submitSurvey } from 'lib/upgrades/actions';
 import { clearPurchases } from 'state/purchases/actions';
 import { isHappychatAvailable, hasActiveHappychatSession } from 'state/happychat/selectors';

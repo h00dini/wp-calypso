@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ClipboardButtonInput from 'components/clipboard-button-input';
 import PurchaseDetails from 'components/purchase-detail';
 import PurchaseButton from 'components/purchase-detail/purchase-button';

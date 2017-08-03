@@ -10,7 +10,7 @@ import { find, flowRight, get, noop } from 'lodash';
  * Internal dependencies
  */
 import Zone from './zone';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import HeaderCake from 'components/header-cake';
 import SectionHeader from 'components/section-header';
 import sectionsModule from 'sections';

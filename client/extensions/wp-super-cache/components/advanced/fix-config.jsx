@@ -9,7 +9,7 @@ import { flowRight } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import SectionHeader from 'components/section-header';
 import { restoreSettings } from '../../state/settings/actions';

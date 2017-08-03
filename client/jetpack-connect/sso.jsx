@@ -18,7 +18,7 @@ import FormattedHeader from 'components/formatted-header';
 import Card from 'components/card';
 import CompactCard from 'components/card/compact';
 import Gravatar from 'components/gravatar';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import LoggedOutFormLinks from 'components/logged-out-form/links';
 import LoggedOutFormLinkItem from 'components/logged-out-form/link-item';
 import { login } from 'lib/paths';

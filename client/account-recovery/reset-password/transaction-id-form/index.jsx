@@ -10,7 +10,7 @@ import { identity } from 'lodash';
  */
 import support from 'lib/url/support';
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import FormLabel from 'components/forms/form-label';
 import FormInput from 'components/forms/form-text-input';
 

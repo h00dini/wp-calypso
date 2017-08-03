@@ -23,7 +23,7 @@ const PeopleListItem = require( 'my-sites/people/people-list-item' ),
 	deterministicStringify = require( 'lib/deterministic-stringify' ),
 	accept = require( 'lib/accept' ),
 	analytics = require( 'lib/analytics' );
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ListEnd from 'components/list-end';
 
 const maxFollowers = 1000;

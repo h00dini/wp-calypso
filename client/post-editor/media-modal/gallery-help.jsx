@@ -13,7 +13,7 @@ import Gridicon from 'gridicons';
 import { isMobile } from 'lib/viewport';
 import Popover from 'components/popover';
 import FormCheckbox from 'components/forms/form-checkbox';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 import { setPreference, savePreference } from 'state/preferences/actions';
 import { getPreference } from 'state/preferences/selectors';

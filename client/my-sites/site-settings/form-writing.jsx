@@ -12,7 +12,7 @@ import wrapSettingsForm from './wrap-settings-form';
 import config from 'config';
 import PressThis from './press-this';
 import SectionHeader from 'components/section-header';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import QueryTaxonomies from 'components/data/query-taxonomies';
 import TaxonomyCard from './taxonomies/taxonomy-card';
 import {

@@ -11,7 +11,7 @@ import Gridicon from 'gridicons';
 import safeProtocolUrl from 'lib/safe-protocol-url';
 import eventRecorder from 'me/event-recorder';
 import { withoutHttp } from 'lib/url';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 export default React.createClass( {
 

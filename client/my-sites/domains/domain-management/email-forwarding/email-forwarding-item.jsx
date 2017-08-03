@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import analyticsMixin from 'lib/mixins/analytics';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import notices from 'notices';
 import { successNotice } from 'state/notices/actions';
 import support from 'lib/url/support';

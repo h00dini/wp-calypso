@@ -15,7 +15,7 @@ import Gridicon from 'gridicons';
  */
 import CompactCard from 'components/card/compact';
 import SectionHeader from 'components/section-header';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { recordTracksEvent } from 'state/analytics/actions';
 import Plugin from './plugin';
 import Notice from 'components/notice';

@@ -17,7 +17,7 @@ import ActionPanelTitle from 'my-sites/site-settings/action-panel/title';
 import ActionPanelBody from 'my-sites/site-settings/action-panel/body';
 import ActionPanelFigure from 'my-sites/site-settings/action-panel/figure';
 import ActionPanelFooter from 'my-sites/site-settings/action-panel/footer';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import DeleteSiteWarningDialog from 'my-sites/site-settings/delete-site-warning-dialog';
 import Dialog from 'components/dialog';
 import { getSitePurchases, hasLoadedSitePurchasesFromServer } from 'state/purchases/selectors';

@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import UploadButton from './video-editor-upload-button';
 
 const VideoEditorControls = ( {

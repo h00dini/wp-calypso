@@ -9,7 +9,7 @@ import invoke from 'lodash/invoke';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import HappinessSupport from 'components/happiness-support';
 import PlanIcon from 'components/plans/plan-icon';

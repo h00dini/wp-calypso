@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
 import Card from 'components/card';
 import SectionHeader from 'components/section-header';
 import { resendIcannVerification } from 'lib/upgrades/actions/domain-management';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import notices from 'notices';
 import support from 'lib/url/support';
 

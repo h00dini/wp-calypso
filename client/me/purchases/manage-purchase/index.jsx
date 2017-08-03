@@ -13,7 +13,7 @@ import React, { Component } from 'react';
 import { abtest } from 'lib/abtest';
 import analytics from 'lib/analytics';
 import { applyTestFiltersToPlansList } from 'lib/plans';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import { cartItems } from 'lib/cart-values';
 import CompactCard from 'components/card/compact';

@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { getRemovableConnections } from 'state/sharing/publicize/selectors';
 
 const SharingServiceAction = ( {

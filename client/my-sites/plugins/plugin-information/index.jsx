@@ -10,7 +10,7 @@ import { get, isEmpty } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ExternalLink from 'components/external-link';
 import Version from 'components/version';
 import PluginRatings from 'my-sites/plugins/plugin-ratings/';

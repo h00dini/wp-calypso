@@ -20,7 +20,7 @@ import FormInputValidation from 'components/forms/form-input-validation';
 import FormButton from 'components/forms/form-button';
 import FormLabel from 'components/forms/form-label';
 import FormSectionHeading from 'components/forms/form-section-heading';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { localize } from 'i18n-calypso';
 import { recordTracksEvent } from 'state/analytics/actions';
 

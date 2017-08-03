@@ -11,7 +11,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import PluginsActions from 'lib/plugins/actions';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import InfoPopover from 'components/info-popover';
 import ExternalLink from 'components/external-link';
 import utils from 'lib/site/utils';

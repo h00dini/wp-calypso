@@ -8,7 +8,7 @@ import { noop } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 const BasicWidget = ( { buttonLabel, buttonLink, onButtonClick, children, className, title } ) => {
 	const classes = classNames( { 'basic-widget__container': true }, className );

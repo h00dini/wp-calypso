@@ -18,7 +18,7 @@ import { getSimplePayments } from 'state/selectors';
 import QuerySimplePayments from 'components/data/query-simple-payments';
 import QuerySitePlans from 'components/data/query-site-plans';
 import Dialog from 'components/dialog';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Notice from 'components/notice';
 import Navigation from './navigation';
 import ProductForm from './form';

@@ -9,7 +9,7 @@ import Gridicon from 'gridicons';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import config from 'config';
 import HappychatButton from 'components/happychat/button';
 import { hasActiveHappychatSession } from 'state/happychat/selectors';

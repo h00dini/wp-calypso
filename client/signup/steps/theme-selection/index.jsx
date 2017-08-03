@@ -13,7 +13,7 @@ import analytics from 'lib/analytics';
 import SignupActions from 'lib/signup/actions';
 import SignupThemesList from './signup-themes-list';
 import StepWrapper from 'signup/step-wrapper';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { themes } from 'lib/signup/themes-data';
 import { getCurrentUser } from 'state/current-user/selectors';
 import { getSurveyVertical } from 'state/signup/steps/survey/selectors';

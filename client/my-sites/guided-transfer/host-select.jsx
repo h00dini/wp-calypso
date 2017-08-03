@@ -8,7 +8,7 @@ import React, { PropTypes } from 'react';
  */
 import Card from 'components/card';
 import SectionHeader from 'components/section-header';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 export default React.createClass( {
 	propTypes: {

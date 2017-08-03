@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import TermFormDialog from 'blocks/term-form-dialog';
 import { getSelectedSiteId } from 'state/ui/selectors';
 import { getPostTypeTaxonomy } from 'state/post-types/taxonomies/selectors';

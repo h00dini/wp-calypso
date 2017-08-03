@@ -10,7 +10,7 @@ import SocialLogo from 'social-logos';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import {
 	getLinkingSocialToken,

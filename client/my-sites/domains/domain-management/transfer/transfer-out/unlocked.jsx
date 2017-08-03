@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
 import Card from 'components/card';
 import SectionHeader from 'components/section-header';
 import { getSelectedDomain } from 'lib/domains';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { requestTransferCode, enableDomainLocking } from 'lib/upgrades/actions';
 import notices from 'notices';
 import { displayRequestTransferCodeResponseNotice } from './shared';

@@ -10,7 +10,7 @@ import find from 'lodash/find';
  */
 import CompactCard from 'components/card/compact';
 import Notice from 'components/notice';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import PendingGappsTosNotice from 'my-sites/domains/components/domain-warnings/pending-gapps-tos-notice';
 import paths from 'my-sites/domains/paths';
 import analyticsMixin from 'lib/mixins/analytics';

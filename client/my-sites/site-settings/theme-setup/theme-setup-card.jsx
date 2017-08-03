@@ -13,7 +13,7 @@ import ActionPanelBody from 'my-sites/site-settings/action-panel/body';
 import ActionPanelFooter from 'my-sites/site-settings/action-panel/footer';
 import ActionPanelFigure from 'my-sites/site-settings/action-panel/figure';
 import Notice from 'components/notice';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ActiveThemeScreenshot from './active-theme-screenshot';
 import ThemeSetupDialog from 'my-sites/site-settings/theme-setup-dialog';
 

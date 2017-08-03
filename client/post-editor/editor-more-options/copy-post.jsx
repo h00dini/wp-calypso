@@ -13,7 +13,7 @@ import Gridicon from 'gridicons';
 import { getSiteSlug } from 'state/sites/selectors';
 import { getSelectedSiteId } from 'state/ui/selectors';
 import AccordionSection from 'components/accordion/section';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Dialog from 'components/dialog';
 import EditorDrawerLabel from 'post-editor/editor-drawer/label';
 import FormSectionHeading from 'components/forms/form-section-heading';

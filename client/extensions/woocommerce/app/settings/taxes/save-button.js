@@ -10,7 +10,7 @@ import page from 'page';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { fetchSetupChoices } from 'woocommerce/state/sites/setup-choices/actions';
 import {
 	areSetupChoicesLoading,

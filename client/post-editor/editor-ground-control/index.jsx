@@ -20,7 +20,7 @@ import postUtils from 'lib/posts/utils';
 import siteUtils from 'lib/site/utils';
 import { recordEvent, recordStat } from 'lib/posts/stats';
 import EditorPublishButton, { getPublishButtonStatus } from 'post-editor/editor-publish-button';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import EditorPostType from 'post-editor/editor-post-type';
 import PostScheduler from './post-scheduler';
 

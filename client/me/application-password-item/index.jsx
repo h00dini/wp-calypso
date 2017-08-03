@@ -12,7 +12,7 @@ var React = require( 'react' ),
  */
 var eventRecorder = require( 'me/event-recorder' ),
 	errorNotice = require( 'state/notices/actions' ).errorNotice,
-	Button = require( 'components/button' );
+	Button = require( '@automattic/simple-components/button' );
 
 const ApplicationPasswordsItem = React.createClass( {
 

@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import ObserveWindowSizeMixin from 'lib/mixins/observe-window-resize';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import viewport from 'lib/viewport';
 
 /**

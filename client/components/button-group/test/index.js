@@ -15,7 +15,7 @@ describe( 'ButtonGroup', function() {
 		sandbox.stub( console, 'log' );
 
 		ButtonGroup = require( '../index' );
-		Button = require( 'components/button' );
+		Button = require( '@automattic/simple-components/button' );
 	} );
 
 	afterEach( function() {

@@ -11,7 +11,7 @@ import { identity, noop } from 'lodash';
  */
 import support from 'lib/url/support';
 import Card from 'components/card';
-import FormButton from 'components/button';
+import FormButton from '@automattic/simple-components/button';
 import FormLabel from 'components/forms/form-label';
 import FormInput from 'components/forms/form-text-input';
 

@@ -15,7 +15,7 @@ import { getEditorPostId } from 'state/ui/editor/selectors';
 import { getEditedPostValue } from 'state/posts/selectors';
 import { getPostType } from 'state/post-types/selectors';
 import { getSiteSlug } from 'state/sites/selectors';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Dialog from 'components/dialog';
 
 function EditorForbidden( { translate, userCanEdit, siteSlug } ) {

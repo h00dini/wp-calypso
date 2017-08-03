@@ -11,7 +11,7 @@ import sample from 'lodash/sample';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Gravatar from 'components/gravatar';
 import { isHappychatAvailable } from 'state/happychat/selectors';
 import support from 'lib/url/support';

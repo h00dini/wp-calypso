@@ -10,7 +10,7 @@ import { uniqueId, head, partial, partialRight, isEqual, flow, compact, includes
  * Internal dependencies
  */
 import SiteIcon from 'blocks/site-icon';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import MediaLibrarySelectedData from 'components/data/media-library-selected-data';
 import AsyncLoad from 'components/async-load';
 import Dialog from 'components/dialog';

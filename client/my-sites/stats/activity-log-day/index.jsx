@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import ActivityLogItem from '../activity-log-item';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import FoldableCard from 'components/foldable-card';
 import { recordTracksEvent as recordTracksEventAction } from 'state/analytics/actions';
 

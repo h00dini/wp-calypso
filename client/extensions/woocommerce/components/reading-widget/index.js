@@ -10,7 +10,7 @@ import React, { Component, PropTypes } from 'react';
  * Internal dependencies
  */
 import analytics from 'lib/analytics';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import config from 'config';
 import ExternalLink from 'components/external-link';
 import FormTextInput from 'components/forms/form-text-input';

@@ -8,7 +8,7 @@ import { noop, pick } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import AsyncLoad from 'components/async-load';
 
 class CalendarButton extends Component {

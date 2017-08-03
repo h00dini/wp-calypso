@@ -8,7 +8,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import config from 'config';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Main from 'components/main';
 import Notice from 'components/notice';
 import NoticeAction from 'components/notice/notice-action';

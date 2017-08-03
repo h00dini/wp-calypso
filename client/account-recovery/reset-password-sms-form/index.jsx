@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import FormTextInput from 'components/forms/form-text-input';
 import FormButton from 'components/forms/form-button';

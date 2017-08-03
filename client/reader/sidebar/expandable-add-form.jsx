@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
 /**
  * Internal Dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 export class ExpandableSidebarAddForm extends Component {
 	static propTypes = {

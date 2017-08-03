@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import DisconnectJetpackDialog from 'blocks/disconnect-jetpack-dialog';
 import { recordGoogleEvent } from 'state/analytics/actions';
 import { disconnect } from 'state/jetpack/connection/actions';

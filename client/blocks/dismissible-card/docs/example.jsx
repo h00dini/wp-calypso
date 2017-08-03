@@ -9,7 +9,7 @@ import { partial } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import DismissibleCard from '../';
 import { savePreference } from 'state/preferences/actions';
 

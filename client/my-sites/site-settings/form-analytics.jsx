@@ -10,7 +10,7 @@ import { flowRight, partialRight, pick, overSome } from 'lodash';
  */
 import wrapSettingsForm from './wrap-settings-form';
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import SectionHeader from 'components/section-header';
 import ExternalLink from 'components/external-link';
 import Banner from 'components/banner';

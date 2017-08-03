@@ -10,7 +10,7 @@ import Gridicon from 'gridicons';
  */
 import SiteCard from 'blocks/site';
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 const DesignMenuHeader = ( { isUnsaved, onBack, onPreview, onSave, site, translate } ) => {
 	return (

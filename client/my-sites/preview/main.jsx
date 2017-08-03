@@ -16,7 +16,7 @@ import {
 import { isSitePreviewable } from 'state/sites/selectors';
 import addQueryArgs from 'lib/route/add-query-args';
 
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import DocumentHead from 'components/data/document-head';
 import EmptyContent from 'components/empty-content';
 import Gridicon from 'gridicons';

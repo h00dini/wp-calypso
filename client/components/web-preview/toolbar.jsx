@@ -9,7 +9,7 @@ import Gridicon from 'gridicons';
  * Internal dependencies
  */
 import { localize } from 'i18n-calypso';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import SelectDropdown from 'components/select-dropdown';
 import DropdownItem from 'components/select-dropdown/item';
 import ClipboardButtonInput from 'components/clipboard-button-input';

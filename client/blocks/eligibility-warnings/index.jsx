@@ -18,7 +18,7 @@ import { getEligibility, isEligibleForAutomatedTransfer } from 'state/automated-
 import { isJetpackSite } from 'state/sites/selectors';
 import { getSelectedSite } from 'state/ui/selectors';
 import Banner from 'components/banner';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import QueryEligibility from 'components/data/query-atat-eligibility';
 import HoldList from './hold-list';

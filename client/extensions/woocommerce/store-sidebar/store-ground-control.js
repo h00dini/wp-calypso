@@ -7,7 +7,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Gridicon from 'gridicons';
 import Site from 'blocks/site';
 

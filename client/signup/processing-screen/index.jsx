@@ -3,7 +3,7 @@
  */
 import find from 'lodash/find';
 import React, { PropTypes } from 'react';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Gridicon from 'gridicons';
 import Notice from 'components/notice';
 

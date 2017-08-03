@@ -20,7 +20,7 @@ const FormButton = require( 'components/forms/form-button' ),
 	config = require( 'config' ),
 	Notice = require( 'components/notice' ),
 	ButtonGroup = require( 'components/button-group' ),
-	Button = require( 'components/button' ),
+	Button = require( '@automattic/simple-components/button' ),
 	Tooltip = require( 'components/tooltip' );
 
 module.exports = React.createClass( {

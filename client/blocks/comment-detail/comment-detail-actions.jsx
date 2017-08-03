@@ -10,7 +10,7 @@ import { includes } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 const commentActions = {
 	unapproved: [ 'like', 'approve', 'spam', 'trash' ],

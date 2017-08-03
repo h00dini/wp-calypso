@@ -8,7 +8,7 @@ import { flowRight, get, isEmpty, pick } from 'lodash';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import CacheStats from './cache-stats';
 import Card from 'components/card';
 import SectionHeader from 'components/section-header';

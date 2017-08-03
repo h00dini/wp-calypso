@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Card from 'components/card';
 import { getSectionName } from 'state/ui/selectors';
 import { getPreference, isFetchingPreferences } from 'state/preferences/selectors';

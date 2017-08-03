@@ -12,7 +12,7 @@ import AsyncLoad from 'components/async-load';
 import EditorSticky from 'post-editor/editor-sticky';
 import utils from 'lib/posts/utils';
 import Tooltip from 'components/tooltip';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import PostFormat from 'components/post-format';
 import EditorActionBarViewLabel from './view-label';
 import EditorStatusLabel from 'post-editor/editor-status-label';

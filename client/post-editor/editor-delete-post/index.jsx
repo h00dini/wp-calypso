@@ -11,7 +11,7 @@ import Gridicon from 'gridicons';
 import actions from 'lib/posts/actions';
 import accept from 'lib/accept';
 import utils from 'lib/posts/utils';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 export default React.createClass( {
 	displayName: 'EditorDeletePost',

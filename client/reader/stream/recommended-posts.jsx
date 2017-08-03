@@ -12,7 +12,7 @@ import Gridicon from 'gridicons';
 import { RelatedPostCard } from 'blocks/reader-related-card-v2';
 import PostStore from 'lib/feed-post-store';
 import { recordAction, recordTrackForPost } from 'reader/stats';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { dismissPost } from 'lib/feed-stream-store/actions';
 
 function dismissRecommendation( uiIndex, storeId, post ) {

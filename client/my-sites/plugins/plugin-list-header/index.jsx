@@ -13,7 +13,7 @@ import Gridicon from 'gridicons';
  */
 import SectionHeader from 'components/section-header';
 import ButtonGroup from 'components/button-group';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import SelectDropdown from 'components/select-dropdown';
 import DropdownItem from 'components/select-dropdown/item';
 import DropdownSeparator from 'components/select-dropdown/separator';

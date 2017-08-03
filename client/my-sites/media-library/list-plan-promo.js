@@ -10,7 +10,7 @@ import { preventWidows } from 'lib/formatting';
  * Internal dependencies
  */
 const EmptyContent = require( 'components/empty-content' ),
-	Button = require( 'components/button' );
+	Button = require( '@automattic/simple-components/button' );
 
 module.exports = React.createClass( {
 	displayName: 'MediaLibraryListPlanPromo',

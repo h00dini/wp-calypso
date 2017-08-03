@@ -8,7 +8,7 @@ import Gridicon from 'gridicons';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 const ReaderFullPostBack = ( { onBackClick, translate } ) => {
 	return (

@@ -7,7 +7,7 @@ import React, { PropTypes } from 'react';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import Count from 'components/count';
 
 const DocsExampleToggle = ( {

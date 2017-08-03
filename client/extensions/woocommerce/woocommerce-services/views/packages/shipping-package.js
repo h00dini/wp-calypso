@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 
 const ShippingPackage = ( { translate, type, name, dimensions } ) => {
 	const icon = 'envelope' === type ? 'mail' : 'product';

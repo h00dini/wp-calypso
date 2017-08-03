@@ -9,7 +9,7 @@ import page from 'page';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import EmptyContent from 'components/empty-content';
 import EmailedLoginLinkExpired from './emailed-login-link-expired';
 import config from 'config';

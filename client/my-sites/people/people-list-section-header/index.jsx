@@ -12,7 +12,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import SectionHeader from 'components/section-header';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ButtonGroup from 'components/button-group';
 import Tooltip from 'components/tooltip';
 import { getSelectedSiteId } from 'state/ui/selectors';

@@ -11,7 +11,7 @@ import classnames from 'classnames';
 /**
  * Internal Dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import ReaderSubscriptionListItemPlaceholder from 'blocks/reader-subscription-list-item/placeholder';
 import { READER_FOLLOWING_MANAGE_SEARCH_RESULT } from 'reader/follow-button/follow-sources';
 import InfiniteStream from 'components/reader-infinite-stream';

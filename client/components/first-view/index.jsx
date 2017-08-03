@@ -11,7 +11,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import RootChild from 'components/root-child';
 import { getSectionName } from 'state/ui/selectors';
 import { shouldViewBeVisible } from 'state/ui/first-view/selectors';

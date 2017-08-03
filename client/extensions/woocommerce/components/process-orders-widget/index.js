@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import formatCurrency from 'lib/format-currency';
 import { getLink } from 'woocommerce/lib/nav-utils';
 

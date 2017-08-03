@@ -15,7 +15,7 @@ import { connect } from 'react-redux';
 import { translate } from 'i18n-calypso';
 import { preload } from 'sections-preload';
 import SitesPopover from 'components/sites-popover';
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { markSeen as markPostSeen } from 'lib/feed-post-store/actions';
 
 import { recordGaEvent, recordAction, recordTrackForPost } from 'reader/stats';

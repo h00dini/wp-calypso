@@ -10,7 +10,7 @@ import React from 'react';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { cancelPrivacyProtection } from 'state/purchases/actions';
 import Card from 'components/card';
 import HeaderCake from 'components/header-cake';

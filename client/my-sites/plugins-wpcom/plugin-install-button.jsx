@@ -10,7 +10,7 @@ import page from 'page';
 /**
  * Internal dependencies
  */
-import Button from 'components/button';
+import Button from '@automattic/simple-components/button';
 import { getAutomatedTransferStatus } from 'state/automated-transfer/selectors';
 import { getSelectedSite } from 'state/ui/selectors';
 import { getEligibility } from 'state/automated-transfer/selectors';

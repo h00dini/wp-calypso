@@ -9,7 +9,7 @@ const React = require( 'react' ),
  */
 const analyticsMixin = require( 'lib/mixins/analytics' ),
 	paths = require( 'my-sites/domains/paths' ),
-	Button = require( 'components/button' );
+	Button = require( '@automattic/simple-components/button' );
 
 const PrimaryDomainButton = React.createClass( {
 	mixins: [ analyticsMixin( 'domainManagement', 'edit' ) ],
